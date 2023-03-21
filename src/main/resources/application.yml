@@ -6,6 +6,7 @@ server:
     threads:
       max: 50
       min-spare: 5
+
 spring:
   application:
     name: config-service
@@ -13,7 +14,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/njvision/config-repo.git
+          uri: https://github.com/njvision/config-repo
           default-label: main
           timeout: 5
           clone-on-start: true
